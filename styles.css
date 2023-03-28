@@ -17,3 +17,29 @@
     top: 200px;
     left: 300px;
   }
+
+#navbar {
+    background-color: black;
+    overflow: hidden;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+ul {
+    border: 1px solid rgba(119, 119, 119, 0.27);
+    border-left: none;
+    border-right: none;
+    height: 24px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+li {
+    display: inline-block;
+    float: right;
+    color: white;
+}
+
