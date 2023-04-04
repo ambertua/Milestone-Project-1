@@ -3,18 +3,18 @@ let playerText = document.getElementById('playerText');
 let restartBtn = document.getElementById('restartBtn');
 let boxes = Array.from(document.getElementsByClassName('box'));
 
-// Winning blocks from CSS
+// Winning boxes from CSS
 let winnerIndicator = getComputedStyle(document.body).getPropertyValue('--winning-blocks');
 
 // Player X and player O score elements
-const playerXScore = document.querySelector('.player-x .score');
-const playerOScore = document.querySelector('.player-o .score');
+// const playerXScore = document.querySelector('.player-x .score');
+// const playerOScore = document.querySelector('.player-o .score');
 
 // Game variables
 let gameActive = true;
 let movesPlayed = 0;
-let xScore = 0;
-let oScore = 0;
+// let xScore = 0;
+// let oScore = 0;
 
 const O_TEXT = "O";
 const X_TEXT = "X";
