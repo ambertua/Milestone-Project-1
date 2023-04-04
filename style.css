@@ -74,6 +74,7 @@ button {
     transition: 200ms transform;
     font-family: 'Amatic SC', cursive;
 }
+
 button:hover {
     cursor: pointer;
     transform: translateY(3px);
